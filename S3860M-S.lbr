@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="S3860M-S">
+<wire x1="0" y1="2" x2="0" y2="-26.7" width="0.127" layer="21"/>
+<wire x1="0" y1="-26.7" x2="15.7" y2="-26.7" width="0.127" layer="21"/>
+<wire x1="15.7" y1="-26.7" x2="15.7" y2="2" width="0.127" layer="21"/>
+<wire x1="15.7" y1="2" x2="0" y2="2" width="0.127" layer="21"/>
+<smd name="13" x="-0.5" y="-25.2" dx="2" dy="0.9" layer="1"/>
+<smd name="12" x="-0.5" y="-23.9" dx="2" dy="0.9" layer="1"/>
+<smd name="11" x="-0.5" y="-22.6" dx="2" dy="0.9" layer="1"/>
+<smd name="10" x="-0.5" y="-21.3" dx="2" dy="0.9" layer="1"/>
+<smd name="9" x="-0.5" y="-20" dx="2" dy="0.9" layer="1"/>
+<smd name="8" x="-0.5" y="-18.7" dx="2" dy="0.9" layer="1"/>
+<smd name="7" x="-0.5" y="-17.4" dx="2" dy="0.9" layer="1"/>
+<smd name="6" x="-0.5" y="-16.1" dx="2" dy="0.9" layer="1"/>
+<smd name="5" x="-0.5" y="-14.8" dx="2" dy="0.9" layer="1"/>
+<smd name="4" x="-0.5" y="-13.5" dx="2" dy="0.9" layer="1"/>
+<smd name="3" x="-0.5" y="-12.2" dx="2" dy="0.9" layer="1"/>
+<smd name="2" x="-0.5" y="-10.8" dx="2" dy="0.9" layer="1"/>
+<smd name="14" x="16.2" y="-25.2" dx="2" dy="0.9" layer="1"/>
+<smd name="15" x="16.2" y="-23.9" dx="2" dy="0.9" layer="1"/>
+<smd name="16" x="16.2" y="-22.6" dx="2" dy="0.9" layer="1"/>
+<smd name="17" x="16.2" y="-21.3" dx="2" dy="0.9" layer="1"/>
+<smd name="18" x="16.2" y="-20" dx="2" dy="0.9" layer="1"/>
+<smd name="19" x="16.2" y="-18.7" dx="2" dy="0.9" layer="1"/>
+<smd name="20" x="16.2" y="-17.4" dx="2" dy="0.9" layer="1"/>
+<smd name="21" x="16.2" y="-16.1" dx="2" dy="0.9" layer="1"/>
+<smd name="22" x="16.2" y="-14.8" dx="2" dy="0.9" layer="1"/>
+<smd name="23" x="16.2" y="-13.5" dx="2" dy="0.9" layer="1"/>
+<smd name="24" x="16.2" y="-12.2" dx="2" dy="0.9" layer="1"/>
+<smd name="25" x="16.2" y="-10.8" dx="2" dy="0.9" layer="1"/>
+<smd name="1" x="-0.5" y="-6.2" dx="2" dy="0.9" layer="1"/>
+<text x="6.6" y="-1.3" size="1.27" layer="21">ANT</text>
+</package>
+</packages>
+<symbols>
+<symbol name="S3860M-S">
+<wire x1="-15.24" y1="40.64" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="15.24" y2="40.64" width="0.254" layer="94"/>
+<wire x1="15.24" y1="40.64" x2="-15.24" y2="40.64" width="0.254" layer="94"/>
+<pin name="1.OX" x="0" y="45.72" length="middle" rot="R270"/>
+<pin name="2.AOM" x="-20.32" y="38.1" length="middle"/>
+<pin name="3.AOL" x="-20.32" y="33.02" length="middle"/>
+<pin name="4.AOR" x="-20.32" y="27.94" length="middle"/>
+<pin name="5.MIC+" x="-20.32" y="22.86" length="middle"/>
+<pin name="6.MICBIAS" x="-20.32" y="17.78" length="middle"/>
+<pin name="7.LED1" x="-20.32" y="12.7" length="middle"/>
+<pin name="8.LED2" x="-20.32" y="7.62" length="middle"/>
+<pin name="9.VCC" x="-20.32" y="2.54" length="middle"/>
+<pin name="10.VBUCK" x="-20.32" y="-2.54" length="middle"/>
+<pin name="11.GND" x="-20.32" y="-7.62" length="middle"/>
+<pin name="12.VBAT" x="-20.32" y="-12.7" length="middle"/>
+<pin name="13.1V8" x="-20.32" y="-17.78" length="middle"/>
+<pin name="14.ONKEY" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="15.VOL+" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="16.VOL-" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="17.RESET" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="18.NC" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="19.MFB1" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="20.UART_TX" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="21.UART_RX" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="22.NEXT" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="23.PREV" x="20.32" y="27.94" length="middle" rot="R180"/>
+<pin name="24.MUTE" x="20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="25.VPP" x="20.32" y="38.1" length="middle" rot="R180"/>
+<text x="-2.54" y="-17.78" size="1.27" layer="94">S3860M-S</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S3860M-S">
+<gates>
+<gate name="G$1" symbol="S3860M-S" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="S3860M-S">
+<connects>
+<connect gate="G$1" pin="1.OX" pad="1"/>
+<connect gate="G$1" pin="10.VBUCK" pad="10"/>
+<connect gate="G$1" pin="11.GND" pad="11"/>
+<connect gate="G$1" pin="12.VBAT" pad="12"/>
+<connect gate="G$1" pin="13.1V8" pad="13"/>
+<connect gate="G$1" pin="14.ONKEY" pad="14"/>
+<connect gate="G$1" pin="15.VOL+" pad="15"/>
+<connect gate="G$1" pin="16.VOL-" pad="16"/>
+<connect gate="G$1" pin="17.RESET" pad="17"/>
+<connect gate="G$1" pin="18.NC" pad="18"/>
+<connect gate="G$1" pin="19.MFB1" pad="19"/>
+<connect gate="G$1" pin="2.AOM" pad="2"/>
+<connect gate="G$1" pin="20.UART_TX" pad="20"/>
+<connect gate="G$1" pin="21.UART_RX" pad="21"/>
+<connect gate="G$1" pin="22.NEXT" pad="22"/>
+<connect gate="G$1" pin="23.PREV" pad="23"/>
+<connect gate="G$1" pin="24.MUTE" pad="24"/>
+<connect gate="G$1" pin="25.VPP" pad="25"/>
+<connect gate="G$1" pin="3.AOL" pad="3"/>
+<connect gate="G$1" pin="4.AOR" pad="4"/>
+<connect gate="G$1" pin="5.MIC+" pad="5"/>
+<connect gate="G$1" pin="6.MICBIAS" pad="6"/>
+<connect gate="G$1" pin="7.LED1" pad="7"/>
+<connect gate="G$1" pin="8.LED2" pad="8"/>
+<connect gate="G$1" pin="9.VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
