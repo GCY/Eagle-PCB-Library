@@ -74,6 +74,7 @@
 <wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
 <pin name="1.IN" x="-10.16" y="0" visible="pad" length="middle"/>
 <pin name="2.OUT" x="10.16" y="0" visible="pad" length="middle" rot="R180"/>
+<text x="-10.16" y="2.54" size="1.778" layer="94">FCM1608KF-601T03</text>
 </symbol>
 </symbols>
 <devicesets>
